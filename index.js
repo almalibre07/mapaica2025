@@ -54,8 +54,8 @@ function parseValue(value) {
 // definirCapaGeoJSON("./data/ICA_Anual2024.geojson", "ICA Anual");
 definirCapaGeoJSON("./data/ICA_Verano2025.geojson", "ICA Verano");
 definirCapaGeoJSON("./data/ICA_Otonio2025.geojson", "ICA Otoño");
-// definirCapaGeoJSON("./data/ICA_Invierno2024.geojson", "ICA Invierno");
-// definirCapaGeoJSON("./data/ICA_Primavera2024.geojson", "ICA Primavera");
+definirCapaGeoJSON("./data/ICA_Invierno2025.geojson", "ICA Invierno");
+definirCapaGeoJSON("./data/ICA_Primavera2025.geojson", "ICA Primavera");
 
 function definirCapaGeoJSON(ruta, nombreCapa) {
     fetch(ruta)
